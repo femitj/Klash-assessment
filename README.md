@@ -4,4 +4,4 @@
 
 Klasha Assessment
 
-<b> View UI template:</b>https://femitj.github.io/Quick-Credit/<br/>
+<b> View UI template:</b>https://femitj.github.io/Klash-assessment/<br/>
