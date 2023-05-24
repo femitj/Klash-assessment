@@ -2,6 +2,8 @@ import React from 'react';
 import SparkLine from '../components/Sparkline';
 import { HiOutlineChevronDown } from 'react-icons/hi';
 import { BsArrowDownShort } from 'react-icons/bs';
+import Button from '../components/Button';
+import Chart from '../components/Chart';
 
 const Index = () => {
   return (
@@ -42,7 +44,7 @@ const Index = () => {
         }}
       >
         <div className='w-4/6'>
-          <div className=' flex w-full item-center justify-between mb-2'>
+          <div className=' flex w-full items-center justify-between mb-2'>
             <div className='text-xl pr-[10px] border-r '>
               <p>Sales</p>
             </div>
@@ -69,15 +71,43 @@ const Index = () => {
             </p>
           </div>
           <div
-            className='w-full border-2 border-black'
-            style={{ height: '200px' }}
+            className='w-full border-2'
+            style={{ height: '200px', border: '1px solid #0A0A0A' }}
           >
-            <SparkLine />
+            <Chart />
           </div>
         </div>
 
         <div style={{ width: '30%', flexDirection: 'column' }}>
-          <div style={{ backgroundColor: '#EF2C5A', height: '250px' }}></div>
+          <div
+            style={{
+              backgroundColor: '#EF2C5A',
+              height: '250px',
+              padding: 15,
+              display: 'flex',
+              flexDirection: 'column',
+            }}
+          >
+            <p
+              className='font-[General Sans]'
+              style={{ color: '#FFFFFF', width: '60%' }}
+            >
+              KlashaWire - send money to businesses globally from Africa
+            </p>
+            <div style={{ marginTop: 'auto' }}>
+              <Button
+                style={{
+                  backgroundColor: '#0A0A0A',
+                  color: '#ffff',
+                  padding: '10px 15px',
+                  fontSize: 14,
+                  borderRadius: '8px',
+                }}
+              >
+                Send a Wire
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
