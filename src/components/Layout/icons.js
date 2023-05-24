@@ -10,7 +10,6 @@ import PieChartIcon, {
 } from '../../asset/icons/svgs';
 
 export const SidebarIcons = (name, active) => {
-  console.log('name.....', name);
   if (name === 'transaction') {
     return <TransactionIcon active={active} />;
   }

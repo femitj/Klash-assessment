@@ -9,9 +9,6 @@ const Sidebar = () => {
   const location = useLocation();
   const activeLink = 'text-[#EF2C5A]';
   const normalLink = 'text-[#0A0A0A]';
-
-  console.log(location.pathname);
-
   return (
     <div className=''>
       <img src={Logo} alt='klash' className='mt-[30px] mb-9 pl-12 h-6' />
@@ -28,7 +25,6 @@ const Sidebar = () => {
                 }
               >
                 <div className='flex pt-4 pl-[52px] gap-2'>
-                  {/* <img src={option.icon} alt='' /> */}
                   {SidebarIcons(option.icon, location.pathname === option.link)}
 
                   <h2 className='font-normal'>{option.title}</h2>
