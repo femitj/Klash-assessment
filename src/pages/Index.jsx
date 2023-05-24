@@ -1,6 +1,7 @@
 import React from 'react';
+import GraphCard from '../components/GraphCard';
 
-const GraphCard = () => {
+const Index = () => {
   return (
     <div className='mt-[104px] px-8'>
       <p className='font-[Instrument-Sans] text-xl mb-6 '>Sales overview</p>
@@ -14,7 +15,7 @@ const GraphCard = () => {
         <GraphCard
           backgroundColor='black'
           color='white'
-          title="'24 Aug - 01 Sep 21"
+          title='24 Aug - 01 Sep 21'
           description='This week'
           amount='₦1,652.50'
         />
@@ -70,4 +71,4 @@ const styles = {
   },
 };
 
-export default GraphCard;
+export default Index;
