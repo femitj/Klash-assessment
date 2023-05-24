@@ -4,4 +4,4 @@
 
 Klasha Assessment
 
-<b> View UI template:</b>https://femitj.github.io/Klash-assessment/<br/>
+<b> View UI template:</b>https://klash-assessment.vercel.app<br/>
