@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Klash-assessment/static/css/main.5580df9a.css",
-    "main.js": "/Klash-assessment/static/js/main.d075a5c8.js",
-    "index.html": "/Klash-assessment/index.html",
-    "main.5580df9a.css.map": "/Klash-assessment/static/css/main.5580df9a.css.map",
-    "main.d075a5c8.js.map": "/Klash-assessment/static/js/main.d075a5c8.js.map"
+    "main.css": "/static/css/main.5580df9a.css",
+    "main.js": "/static/js/main.d6061f43.js",
+    "index.html": "/index.html",
+    "main.5580df9a.css.map": "/static/css/main.5580df9a.css.map",
+    "main.d6061f43.js.map": "/static/js/main.d6061f43.js.map"
   },
   "entrypoints": [
     "static/css/main.5580df9a.css",
-    "static/js/main.d075a5c8.js"
+    "static/js/main.d6061f43.js"
   ]
 }
