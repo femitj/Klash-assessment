@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Klash-assessment/static/css/main.0f2eee3b.css",
+    "main.js": "/Klash-assessment/static/js/main.7ff8ddf3.js",
+    "index.html": "/Klash-assessment/index.html",
+    "main.0f2eee3b.css.map": "/Klash-assessment/static/css/main.0f2eee3b.css.map",
+    "main.7ff8ddf3.js.map": "/Klash-assessment/static/js/main.7ff8ddf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f2eee3b.css",
+    "static/js/main.7ff8ddf3.js"
+  ]
+}
