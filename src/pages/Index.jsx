@@ -9,41 +9,36 @@ const Index = () => {
   return (
     <div className='mt-[104px] px-8'>
       <p className='font-[Instrument-Sans] text-xl mb-6 '>Sales overview</p>
-      <div className='flex gap-6 flex-1'>
-        <div className='border rounded-lg p-6 border-black w-full h-60'>
+      <div className='sm:flex gap-6 flex-1' >
+        <div className='border rounded-lg p-6 border-black w-full h-60 mb-2'>
           <p className='text-sm'>Today's sales</p>
           <p className='text-xl mt-1 font-[Instrument-Sans]'>₦1,652.50</p>
         </div>
-        <div className='border rounded-lg p-6 border-black w-full h-60 bg-black text-white'>
+        <div className='border rounded-lg p-6 border-black w-full h-60 bg-black text-white mb-2'>
           <p className='text-sm'>24 Aug - 01 Sep 21</p>
           <SparkLine />
           <p className='text-sm'>This week</p>
           <p className='text-xl mt-1 font-[Instrument-Sans]'>₦1,652.50</p>
         </div>
-        <div className='border rounded-lg p-6 border-black w-full h-60'>
+        <div className='border rounded-lg p-6 border-black w-full h-60 mb-2'>
           <p className='text-sm'>24 Aug - 01 Sep 21</p>
           <SparkLine />
           <p className='text-sm'>This week</p>
           <p className='text-xl mt-1 font-[Instrument-Sans]'>₦1,652.50</p>
         </div>
-        <div className='border rounded-lg p-6 border-black w-full h-60'>
+        <div className='border rounded-lg p-6 border-black w-full h-60 mb-2'>
           <p className='text-sm'>24 Aug - 01 Sep 21</p>
           <SparkLine />
           <p className='text-sm'>This week</p>
           <p className='text-xl mt-1 font-[Instrument-Sans]'>₦1,652.50</p>
         </div>
-        {/* <div className="border rounded p-6 border-black w-full"></div> */}
+        {/* <div className="border rounded p-6 border-black w-full"></div> */ }
       </div>
 
       <div
-        style={{
-          display: 'flex',
-          flexDirection: 'row',
-          justifyContent: 'space-between',
-          marginTop: 20,
-        }}
+        className='sm:flex gap-6 flex-1 mt-3'
       >
-        <div className='w-4/6'>
+        <div className='sm:w-4/6 mb-2'>
           <div className=' flex w-full items-center justify-between mb-2'>
             <div className='text-xl pr-[10px] border-r '>
               <p>Sales</p>
@@ -51,7 +46,7 @@ const Index = () => {
             <button className='pr-6 pl-3 text-[#EF2C5A]'>7 days</button>
             <button className='pr-6'>30 days</button>
             <p className='py-[10px] px-6 border-2 border-black rounded-md flex items-center mr-2'>
-              USD{' '}
+              USD{ ' ' }
               <span>
                 <HiOutlineChevronDown />
               </span>
@@ -72,37 +67,37 @@ const Index = () => {
           </div>
           <div
             className='w-full border-2'
-            style={{ height: '200px', border: '1px solid #0A0A0A' }}
+            style={ { height: '200px', border: '1px solid #0A0A0A' } }
           >
             <Chart />
           </div>
         </div>
 
-        <div style={{ width: '30%', flexDirection: 'column' }}>
+        <div className='sm:w-2/6 mb-2'>
           <div
-            style={{
+            style={ {
               backgroundColor: '#EF2C5A',
               height: '250px',
               padding: 15,
               display: 'flex',
               flexDirection: 'column',
-            }}
+            } }
           >
             <p
               className='font-[General Sans]'
-              style={{ color: '#FFFFFF', width: '60%' }}
+              style={ { color: '#FFFFFF', width: '60%' } }
             >
               KlashaWire - send money to businesses globally from Africa
             </p>
-            <div style={{ marginTop: 'auto' }}>
+            <div style={ { marginTop: 'auto' } }>
               <Button
-                style={{
+                style={ {
                   backgroundColor: '#0A0A0A',
                   color: '#ffff',
                   padding: '10px 15px',
                   fontSize: 14,
                   borderRadius: '8px',
-                }}
+                } }
               >
                 Send a Wire
               </Button>
